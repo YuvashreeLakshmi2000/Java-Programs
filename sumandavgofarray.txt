@@ -15,7 +15,7 @@ public class Main
 	       sum = sum+a[i];
 	   }
 	   System.out.println("The sum of the elements in the array"+sum);
-	   avg = sum/l;
+	   avg =(float)sum/l;
 	   System.out.println("The average value of the elements in the array"+avg);
     }
 }
