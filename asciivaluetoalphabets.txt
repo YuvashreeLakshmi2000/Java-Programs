@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+      Scanner in = new Scanner(System.in);
+      int[] ascii_array=new int[26];
+      char j;
+      int l=0;
+      int i=0;
+      int num=0;
+      l=ascii_array.length;
+      System.out.println("The length of the array is");
+      System.out.println(+l);
+      System.out.println("Getting the elements in the array");
+      for(i=0;i<l;i++)
+      {
+          ascii_array[i] = in.nextInt();
+      }
+      System.out.println("Printing the alphabets according to the corresponding ascii value");
+      for(i=0;i<l;i++)
+      {
+          num = ascii_array[i];
+          j = (char)num;
+          System.out.println(j);
+      }
+         
+      }
+}
